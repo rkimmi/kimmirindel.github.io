@@ -21219,22 +21219,48 @@ var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _Home = __webpack_require__(71);
+
+var _Home2 = _interopRequireDefault(_Home);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
   return _react2.default.createElement(
     'div',
     { className: 'app-container' },
-    _react2.default.createElement(
-      'p',
-      null,
-      'Hiya, good luck!'
-    ),
-    _react2.default.createElement('iframe', { src: 'https://giphy.com/embed/yoJC2AkZpy7PffDToY', width: '480', height: '359', frameBorder: '0', className: 'giphy-embed', allowFullScreen: true })
+    _react2.default.createElement(_Home2.default, null)
   );
 };
 
 exports.default = App;
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Home = function Home() {
+    return _react2.default.createElement(
+        'div',
+        { className: 'bird-pic-container' },
+        _react2.default.createElement('img', { className: 'bird-pic zoom', src: 'birdie.png' })
+    );
+};
+
+exports.default = Home;
 
 /***/ })
 /******/ ]);

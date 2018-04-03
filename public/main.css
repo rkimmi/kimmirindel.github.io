@@ -1,0 +1,27 @@
+.bird-pic {
+    height: 600px;
+    width: 400px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 80px;
+}
+
+.bird-pic-container {
+    display: flex;
+    max-height: 1000%;
+    max-width: 1000%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+.zoom {
+    transition: transform .2s; /* Animation */
+   
+    margin: 80px auto;
+}
