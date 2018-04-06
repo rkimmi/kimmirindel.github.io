@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Header from './Header'
 import randomPics from './randompic.js'
@@ -13,7 +14,7 @@ class RandomPic extends React.Component {
                     <p>
                         Here's the randompic page
                 </p>
-                <img className='randomimage' src={`.` + `${picData}`}/>
+                <Link to='/randompic'><img className='randomimage' src={`.` + `${picData}`}/></Link>
                 </div>
             </div>
         )
