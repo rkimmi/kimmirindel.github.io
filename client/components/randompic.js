@@ -3,7 +3,7 @@ const randomPics = [
     '/randompics/catpic2.png',
     '/randompics/corporatepic.png',
     '/randompics/dogpic.png',
-    '/randompics/dogpic2.png',
+    '/randompics/dog2pic.png',
     '/randompics/elephantpic.png',
     '/randompics/hippopic.png',
     '/randompics/llamapic.png',
@@ -12,7 +12,7 @@ const randomPics = [
     '/randompics/puppypic.png',
     '/randompics/sadmonkeypic.png',    
     '/randompics/sealpic.png',
-    '/randompics/sealpic2.png',
+    '/randompics/seal2pic.png',
     '/randompics/sheeppic.png',
     '/randompics/snowpic.png'
 ]
