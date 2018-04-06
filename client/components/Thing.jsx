@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Blog = () => {
+const Thing = () => {
     return (
         <div>
-            <div className='blog-container'>
+            <div className='thing-container'>
                 <p>
-                    Here's the blog page
+                    Here's the thing page
                 </p>
             </div>
         </div>
     )
 }
 
-export default Blog
+export default Thing

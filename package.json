@@ -7,7 +7,7 @@
     "start": "webpack && node server",
     "dev": "nodemon --watch server & webpack --watch"
   },
-  "author": "Julia",
+  "author": "KIMMI",
   "license": "ISC",
   "babel": {
     "presets": [
