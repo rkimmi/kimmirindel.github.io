@@ -25517,7 +25517,7 @@ var _Home = __webpack_require__(114);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Writing = __webpack_require__(116);
+var _Writing = __webpack_require__(115);
 
 var _Writing2 = _interopRequireDefault(_Writing);
 
@@ -25565,16 +25565,14 @@ var Home = function Home() {
             'div',
             { className: 'bird-pic-container' },
             _react2.default.createElement('img', { className: 'bird-pic zoom', src: 'birdie.png' })
-        ),
-        _react2.default.createElement('button', null)
+        )
     );
 };
 
 exports.default = Home;
 
 /***/ }),
-/* 115 */,
-/* 116 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

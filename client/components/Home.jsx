@@ -5,9 +5,8 @@ const Home = () => {
     return (
         <div>
         <div className='bird-pic-container'>
-        <img className='bird-pic zoom' src='birdie.png'/>
+        <img className='bird-pic zoom' src='birdie.png'/>   
         </div>
-        <button></button>
         </div>
     )
 }
