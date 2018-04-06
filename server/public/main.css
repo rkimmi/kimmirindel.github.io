@@ -25,3 +25,17 @@
    
     margin: 80px auto;
 }
+
+.blog-container {
+    max-width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.blogtext {
+
+}
