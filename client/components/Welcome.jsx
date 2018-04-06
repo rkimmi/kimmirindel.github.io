@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-class Home extends React.Component {
+class Welcome extends React.Component {
     constructor (props) {
         super (props)
         this.state = {
-            routes: ['/blog', '/writing', '/randompic']
+            routes: ['/blog', '/writing', '/randompic'],
+            routePath: ''
         }
         this.getRandomRoute = this.getRandomRoute.bind(this)
     }
@@ -15,9 +16,9 @@ class Home extends React.Component {
     }
 
     getRandomRoute () {
-        const random = this.state.routes[Math.floor(Math.random()* this.state.routes.length)]
+        const randomRoute = this.state.routes[Math.floor(Math.random()* this.state.routes.length)]
         this.setState({
-            routes: random
+            routePath: randomRoute
         })
 
     }
@@ -25,11 +26,11 @@ class Home extends React.Component {
         return (
             <div>
                 <div className='bird-pic-container'>
-                    <Link to={`${this.state.routes}`}><img className='bird-pic zoom' src='birdie.png' /></Link>
+                    <Link to={`${this.state.routePath}`}><img className='bird-pic zoom' src='birdie.png' /></Link>
                 </div>
             </div>
         )
     }
 }
 
-export default Home
+export default Welcome
