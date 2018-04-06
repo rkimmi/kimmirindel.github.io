@@ -1,15 +1,23 @@
 import React from 'react'
 
-const RandomPic = () => {
-    return (
-        <div>
-            <div className='randompic-container'>
-                <p>
-                    Here's the randompic page
+import Header from './Header'
+import randomPics from './randompic.js'
+
+class RandomPic extends React.Component {
+    render () {
+        const picData = randomPics[Math.floor(Math.random() * randomPics.length)]
+        return (
+            <div>
+                <Header />
+                <div className='randompic-container'>
+                    <p>
+                        Here's the randompic page
                 </p>
+                <img className='randomimage' src={`.` + `${picData}`}/>
+                </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default RandomPic

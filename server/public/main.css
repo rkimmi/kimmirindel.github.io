@@ -35,3 +35,20 @@
     justify-content: center;
     text-align: center;
 }
+
+.header {
+    width: 100%;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.link {
+    padding: 7px;
+    letter-spacing: 2px;
+}
+
+.randomimage {
+    width: 500px;
+}
